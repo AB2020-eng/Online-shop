@@ -34,6 +34,7 @@ function Header({ cart, total, isCheckout, checkout, setIsCheckout, storeName, f
         )}
         <Link to="/" className="brand">
           <img src="/images/NS.jpg" alt="NOBLE SHOES" className="logo" />
+          <span className="store-name">NOBLE SHOES</span>
         </Link>
       </div>
       <div className="cart-summary">
