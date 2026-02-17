@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/$1" },
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    { "src": "/images/(.*)", "dest": "/images/$1" },
+    { "src": "/products.csv", "dest": "/products.csv" },
+    { "src": "/orders.csv", "dest": "/orders.csv" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
