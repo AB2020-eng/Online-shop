@@ -402,8 +402,8 @@ function App() {
               <input value={customer.name} onChange={e => setCustomer({ ...customer, name: e.target.value })} placeholder="Full name" />
             </div>
             <div className="form-group">
-              <label>Email or Phone</label>
-              <input value={customer.contact} onChange={e => setCustomer({ ...customer, contact: e.target.value })} placeholder="email@example.com or +251..." />
+              <label>Phone number</label>
+              <input value={customer.contact} onChange={e => setCustomer({ ...customer, contact: e.target.value })} placeholder="+251..." />
             </div>
             <div className="form-group">
               <label>Address</label>
