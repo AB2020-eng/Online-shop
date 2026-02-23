@@ -33,8 +33,7 @@ function Header({ cart, total, isCheckout, checkout, setIsCheckout, storeName, f
           <Link to="/" className="back-arrow" aria-label="Back to home">←</Link>
         )}
         <Link to="/" className="brand">
-          <img src="/images/NS.jpg" alt="NOBLE SHOES" className="logo" />
-          <span className="store-name">NOBLE SHOES</span>
+          <span className="store-name">Store Name</span>
         </Link>
       </div>
       <div className="cart-summary">
@@ -452,7 +451,7 @@ function App() {
             </div>
           </div>
           <div className="store-address">
-            Mexico, Debrework Building, 4th floor, No. 409
+            Your address here
           </div>
         </div>
       )}
